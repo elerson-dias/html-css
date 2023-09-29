@@ -1,0 +1,24 @@
+@charset "UTF-8"
+/*Regra charset caso aja problemas com acentuação*/
+body{
+    background-color:chocolate
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+h1{
+    
+    color:darkred;
+    background-color: goldenrod;
+    font-size: 30px;
+
+}
+h2{
+    color:darkred;
+    font-size: 20px;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    text-align: justify;
+}
