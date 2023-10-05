@@ -3,43 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Fundo de Imagem</title>
+    <title>Testando o Fundo</title>
     <style>
-
         body{
-            background-image: url('imagens/wallpaper002.jpg');
+            background-image: linear-gradient(to bottom , black, rgb(255, 255, 255));
         }
         div.quadrado {
-            background-color: lightgrey;
-            height: 350px;
-            width: 350px;
-            border-radius: 10px;
+            background-color: lightgray;
             border: solid black;
             display: inline-block;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+
+
         }
 
-        div#q1{
-background-color: blueviolet;
-        }
-
-        div#q2 {
-background-image: linear-gradient( to bottom , red , yellow);
-        }
-
-        div#q3 {
+    div#q1 {
 background-image: url('imagens/pattern001.png');
-        }
+    }
+
+    div#q2 {
+background-color: blueviolet;
+    }
+
+    div#q3{
+background-image: linear-gradient(to bottom, purple, yellow);
+    }
     </style>
 </head>
 <body>
-    <div class="quadrado" id="q1">
+   <div class="quadrado" id="q1">
 
-    </div>
-    <div class="quadrado" id="q2">
+   </div> 
+   <div class="quadrado" id="q2">
 
-    </div>
-    <div class="quadrado" id="q3">
+   </div>
+   <div class="quadrado" id="q3">
 
-    </div>
+   </div>
+
 </body>
 </html>
